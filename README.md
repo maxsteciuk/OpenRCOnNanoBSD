@@ -26,7 +26,7 @@ sudo dd if=|source directory prefix|/images/_.disk.image.beaglebon of=/dev/da0 b
 sudo sync
 ```
 ## How to set up OpenRC services on NanoBSD
-After GhostBSD is booted up on Beaglebone you will probably find that a couple of more things needs to be setup such as networking, mounting of filesystem, time synchronization etc. GhostBSD is using OpenRC as init and run control system. Since NanoBSD is minimalistic (at its name suggests) the root partition is mounted in read-only mode. So system configurations are done as follows.
+After GhostBSD is booted up on Beaglebone you will probably find that a couple of more things needs to be set up such as networking, mounting of filesystem, time synchronization etc. GhostBSD is using OpenRC as init and run control system. Since NanoBSD is minimalistic (at its name suggests) the root partition is mounted in read-only mode. So system configurations are done as follows.
 1. Mount a special configuration partition **/cfg**
 ```
 mount /cfg
