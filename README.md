@@ -41,7 +41,7 @@ echo "hostname=nanobeagle" >> /cfg/rc.conf
 ```
 4. Reboot the device
 
-In GhostBSD many of the functionality described in the beginning of the paragraph is managed by corresponding OpenRC services. Due to the nature of NanoBSD enabling service via the following command will not work in the sense the service will not be persisted to the runlevel of the OpenRC system
+In GhostBSD many of the functionality described in the beginning of the paragraph is managed by corresponding OpenRC services. Due to the nature of NanoBSD enabling a service via the following command will not work in the sense a service will not be persisted to a runlevel of the OpenRC system
 ```
 rc-update add network
 ```
