@@ -1,5 +1,5 @@
 # OpenRC On NanoBSD
-Instructions to set up OpenRC services on NanoBSD
+Instructions how to set up OpenRC services on NanoBSD
 
 ## How to build and install GhostBSD-based NanoBSD
 [NanoBSD](https://www.freebsd.org/doc/en_US.ISO8859-1/articles/nanobsd/index.html) is a variant of FreeBSD for embedded systems suitable to run on devices such as Beaglebone, Raspberry PI etc. In my latest experience I was playing with GhostBSD to be run on the Beaglebone board. So the below examples will be based on such the setup. The NanoBSD tool makes it pretty simple to build an image with the following command line
